@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "path": "esp_smarthome"
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "gpio.h": "c"
+        }
+    }
+}
