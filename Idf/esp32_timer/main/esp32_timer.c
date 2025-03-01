@@ -33,7 +33,7 @@ int config_timer(void* ptr_arg, char* ptr_name, esp_timer_handle_t* timer_handle
         .callback = t1_callback_fcn,
         .dispatch_method = ESP_TIMER_TASK,
         .arg = ptr_arg,
-        .name = ptr_name
+        .name = ptr_names
     };
 
     return esp_timer_create(&timer1, timer_handle);
